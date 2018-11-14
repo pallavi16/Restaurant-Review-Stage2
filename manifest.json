@@ -1,9 +1,22 @@
 {
   "name": "Restaurant reviews",
   "short_name": "Reviews",
-  "start_url": ".",
+  "icons": [
+    {
+      "src": "icon_1.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+     {
+      "src": "icon_2.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?source=pwa",
   "display": "standalone",
   "background_color": "#fff",
   "theme_color": "lightgray",
   "description": "New York City restaurant reviews"
 }
+
